@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { UserPoolTestStack } from '../lib/user-pool-test-stack';
+import { TestAttributeAccessAmplifyInfrastructureStack } from '../lib/test-attribute-access-amplify-infrastructure-stack';
 
 const app = new cdk.App();
-new UserPoolTestStack(app, 'UserPoolTestStack', {
+new TestAttributeAccessAmplifyInfrastructureStack(app, 'TestAttributeAccessAmplifyInfrastructureStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

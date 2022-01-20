@@ -3,7 +3,7 @@
 // import * as UserPoolTest from '../lib/user-pool-test-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/user-pool-test-stack.ts
+// example resource in lib/test-attribute-access-amplify-infrastructure-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
